@@ -8,7 +8,7 @@
 *NOT MUCH
 
 This lisplog :
-
+```lisp
 (module first_counter
 	(input clock reset enable)
 	(output (vec 3 0 counter_out))
@@ -54,7 +54,7 @@ This lisplog :
 	  end
    endmodule")
 
-
+```
 Will generate
 
 ```verilog
