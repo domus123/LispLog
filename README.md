@@ -122,7 +122,7 @@ input clock ;
 
 &  sbcl --load lisplog.lsp
 &  (compile-lisplog)
-& ./lisplog "test.llog" "output.vl"
+& ./lisplog test.llog output.vl
 
 ```
 
